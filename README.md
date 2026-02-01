@@ -2,7 +2,7 @@
 
 Predict house prices using ensemble learning and boosting models with advanced data preprocessing and feature engineering.
 
-🔹 Project Overview
+### Project Overview
 
 This project implements multiple regression models to predict house prices, including:
 
@@ -16,7 +16,7 @@ XGBoost
 
 Gradient Boosting achieved the best performance.
 
-🔹 Key Features
+### Key Features
 
 Handling missing data (median for numeric, 'None' for categorical)
 
@@ -40,7 +40,7 @@ Hyperparameter tuning with GridSearchCV
 
 Insight: Gradient Boosting is the most accurate; XGBoost offers faster training with competitive results.
 
-🔹 Feature Importance (Top 5)
+### Feature Importance (Top 5)
 
 OverallQual – Overall material & finish
 
@@ -52,13 +52,13 @@ GarageCars – Garage capacity
 
 1stFlrSF – First-floor area
 
-🔹 Limitations
+### Limitations
 
 Underestimates high-priced houses
 
 Residuals show heteroscedasticity for expensive properties
 
 
-🔹 Conclusion
+### Conclusion
 
 Gradient Boosting delivers the best predictions, balancing accuracy and interpretability. XGBoost is a faster alternative with slightly lower performance.
