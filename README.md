@@ -26,14 +26,17 @@ One-hot encoding of categorical variables
 
 Hyperparameter tuning with GridSearchCV
 
-🔹 Model Evaluation
-Model	RMSLE	MAE	RMSE	R²
-Gradient Boosting	0.0251	3586	4738	0.996
-XGBoost	0.0443	5802	8275	0.989
-Random Forest	0.0532	6617	12592	0.975
-Linear Regression	0.0922	11345	17828	0.950
-Decision Tree	0.1255	15938	25641	0.896
-Dummy Regressor	0.3993	55616	80676	-0.032
+### Model Evaluation
+
+| Model              | RMSLE  | MAE    | RMSE   | R²    |
+|------------------- |-------:|-------:|-------:|------:|
+| Gradient Boosting  | 0.0251 | 3,586  | 4,738  | 0.996 |
+| XGBoost            | 0.0443 | 5,802  | 8,275  | 0.989 |
+| Random Forest      | 0.0532 | 6,617  | 12,592 | 0.975 |
+| Linear Regression  | 0.0922 | 11,345 | 17,828 | 0.950 |
+| Decision Tree      | 0.1255 | 15,938 | 25,641 | 0.896 |
+| Dummy Regressor    | 0.3993 | 55,616 | 80,676 | -0.032 |
+
 
 Insight: Gradient Boosting is the most accurate; XGBoost offers faster training with competitive results.
 
